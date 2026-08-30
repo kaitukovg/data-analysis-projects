@@ -14,6 +14,7 @@
 - SciPy
 - Statsmodels
 - SQL / PostgreSQL
+- Power BI
 
 
 ## Что изучаю сейчас
