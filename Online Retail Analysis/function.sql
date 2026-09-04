@@ -1,3 +1,4 @@
+-- Функция для возвращения основных показателей для пользователя
 CREATE OR REPLACE FUNCTION get_user_stats(p_customer_id NUMERIC)
 RETURNS TABLE (
 	customer_id NUMERIC,
@@ -19,6 +20,10 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- Проверка
+SELECT * FROM get_user_stats(13085.0);
+
+-- Функция для получения основной статистики для товара
 CREATE OR REPLACE FUNCTION get_item_stats(p_stock_code VARCHAR)
 RETURNS TABLE (
     item VARCHAR,
@@ -47,4 +52,5 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- Проверка
 SELECT * FROM get_item_stats('85110');
