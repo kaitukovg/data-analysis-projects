@@ -3,11 +3,11 @@ from datetime import datetime, timedelta
 import psycopg2
 
 DB_CONFIG = {
-    "dbname": "postgres",
-    "user": "postgres",
-    "password": "111111111",
-    "host": "127.0.0.1",
-    "port": "5432"
+    "dbname": "",
+    "user": "",
+    "password": "",
+    "host": "",
+    "port": ""
 }
 
 def generate_traffic_data(records_count=2000):
