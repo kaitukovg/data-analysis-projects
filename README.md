@@ -12,6 +12,7 @@
 - Matplotlib
 - Seaborn
 - SciPy
+- Scikit-Learn
 - Statsmodels
 - SQL / PostgreSQL
 - Power BI
