@@ -1,4 +1,4 @@
-# 🍕 Pizza Sales Analysis
+# Pizza Sales Analysis
 
 An exploratory data analysis project focused on understanding sales performance, product demand, customer ordering behavior, and revenue dynamics of a pizza restaurant.
 
@@ -6,7 +6,7 @@ The project combines PostgreSQL, SQL, Python, Pandas, Matplotlib and Seaborn to 
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The main goal of the project is to identify the key factors driving the restaurant's revenue and understand how sales vary across products, order sizes, time periods and other dimensions.
 
@@ -22,7 +22,7 @@ The analysis focuses on questions such as:
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 The dataset contains transactional pizza sales data.
 
@@ -37,7 +37,7 @@ The analysis covers one year of sales data.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **PostgreSQL** — data storage, transformation and aggregation
 - **SQL** — joins, aggregations and analytical views
@@ -49,7 +49,7 @@ The analysis covers one year of sales data.
 
 ---
 
-## 🔄 Data Preparation
+## Data Preparation
 
 Several SQL views were created to simplify the analytical workflow.
 
@@ -89,7 +89,7 @@ This separation allows the analysis to work with both detailed product-level dat
 
 ---
 
-## 📊 Analysis
+## Analysis
 
 The project covers several analytical areas.
 
